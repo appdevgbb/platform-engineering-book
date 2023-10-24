@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Platform Engineering Cookbook'
+copyright = '2021, Azure Global Black Belt Team'
+author = 'GBB'
 
 release = '0.1'
 version = '0.1.0'
