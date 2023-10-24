@@ -6,13 +6,9 @@ Platform Engineering Cookbook
 
    This project is under active development.
 
-Foreword  
-########
-
-- Importance of platform engineering in modern software development  
-- Rise of DevOps, SRE, and cloud-native technologies  
-
 .. toctree::
+   foreword
+   
    :numbered:
 
    introduction
