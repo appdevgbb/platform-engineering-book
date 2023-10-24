@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'Platform Engineering Cookbook'
-copyright = '2021, Azure Global Black Belt Team'
-author = 'GBB'
+copyright = '2023, Azure Global Black Belt Team'
+author = 'Azure Global Black Belt Team'
 
 release = '0.1'
 version = '0.1.0'
@@ -29,7 +29,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_material'
+html_theme = 'sphinx_std'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

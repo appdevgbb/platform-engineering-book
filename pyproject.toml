@@ -3,6 +3,6 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "lumache"
+name = "Platform Engineering Cookbook"
 authors = [{name = "The Azure App Innovation GBB Team", email = ""}]
 dynamic = ["version", "description"]
