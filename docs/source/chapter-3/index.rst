@@ -7,4 +7,4 @@ Chapter 3: Infrastructure as Code (IaC)
 
 #. Configuration Management with Ansible  
 
-#. Maintaining State and Versioning in IaC  
+#. Maintaining State and Versioning in IaC

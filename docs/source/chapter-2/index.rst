@@ -7,4 +7,4 @@ Chapter 2: Building Blocks of Platform Engineering
 
 #. Serverless Platforms  
 
-#. Cloud Service Providers: The Major Players  
+#. Cloud Service Providers: The Major Players
