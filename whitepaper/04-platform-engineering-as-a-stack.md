@@ -60,9 +60,9 @@ The security plane safeguards the platform, ensuring data integrity and regulato
 ##### **5. Resource Plane**
 At the foundation of the stack, the resource plane provides the underlying compute, data, and networking resources. Components include:
 
-- **Compute:**  `Azure Kubernetes Service (AKS)` for containerized workloads.
+- **Compute:**  Solutions like `Azure Kubernetes Service (AKS)`, Azure App Service, Virtual Machines and others.
 
-- **Data:**  `Azure SQL` and `Azure PostgreSQL` for structured data storage.
+- **Data:**  Such as `Azure SQL` and `Azure PostgreSQL` for structured data storage.
 
 - **Networking:** Tools like `Azure DNS `and `Azure Traffic Manager` for managing connectivity. Developers might need a new A Record or CNAME for an application or new API endpoint and that can be provided by `Azure DNS`. This can further be further automated by deploying `ExternalDNS` to `Azure Kubernetes Services` and dynamically update `Azure DNS` with new DNS records as new services are created in the Kubernetes cluster. Traffic Manager on the other hand can be used to test geo-location based traffic patterns and high availability/failover.
 
