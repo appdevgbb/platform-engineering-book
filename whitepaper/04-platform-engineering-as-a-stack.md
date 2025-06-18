@@ -9,7 +9,7 @@ A platform stack is best explained as a hierarchy of interdependent layers, each
 | **Layer** | **Purpose** | **Examples**
 |-|-|-
 | **Developer Control Plane**| Provides tools and interfaces for developers to interact with the platform. | IDEs (VS Code, Codespaces), CLI Tools (Azure Developer CLI), Developer Portal (Backstage), GitHub |
-| **Integration and Delivery Plane** | Enables seamless application integration and delivery. | CI Pipelines (GitHub Actions), CD Pipelines (Flux v2), Image Registry (Azure Container Registry) |
+| **Integration and Delivery Plane** | Enables seamless application integration and delivery. | CI Pipelines (GitHub Actions), CD Pipelines (ArgoCD), Image Registry (Azure Container Registry) |
 | **Monitoring and Logging Plane**  | Ensures system reliability through observability and issue resolution. | Prometheus, Azure Managed Grafana, Azure Monitor |
 | **Security Plane** | Safeguards the platform with tools for secrets, policies, and network security. | Secrets Management (Azure Key Vault), Policy Management (Azure Policy), Network Security (Cilium) |
 | **Resource Plane** | Provides the foundational compute, data, and networking resources. | Compute (Azure Kubernetes Service), Data (Azure SQL, Azure PostgreSQL), Networking (Azure DNS, Azure Traffic Manager), Integration Services (Azure Service Bus, Azure API Management)
@@ -34,7 +34,7 @@ This layer focuses on simplifying the developer experience, increasing productiv
 ##### **2. Integration and Delivery Plane**
 This layer enables seamless integration and delivery of applications and services. Key components include:
 - **CI Pipelines:** Tools like `GitHub Actions` for automating build and integration processes.
-- **CD Pipelines:** Solutions like `Flux v2` for continuous deployment to `Kubernetes` environments.
+- **CD Pipelines:** Solutions like `ArgoCD` for continuous deployment to `Kubernetes` environments.
 - **Image Registry:** Registries such as `Azure Container Registry` for storing and managing container images.
 
 The integration and delivery plane ensures smooth workflows, reducing friction in the software delivery lifecycle.
